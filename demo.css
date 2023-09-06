@@ -1,62 +1,77 @@
 /* CSS de la página de demo.html */
 
 body {
-    background-color: #000; /* color de fondo de toda la página */ 
-    color:#fff; /* color de letra de toda la página */
+    background-color: #000;
+    /* color de fondo de toda la página */
+    color: #fff;
+    /* color de letra de toda la página */
 }
+
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 900; 
-    color:#000;
+    font-weight: 900;
+    color: #000;
+    background-color: rgb(8, 110, 194);
 }
+
 p {
     text-align: center;
-    color: #fdf9f9;
-    font-weight: 500; 
+    color: rgb(231, 231, 221) font-weight: 500;
     font-size: larger;
 }
 
-/* imagen */ 
+dl {
+    font-weight: 500;
+    font-size: larger;
+    text-indent: 20px;
+}
+
+/* imagen */
 picture {
     display: flex;
     justify-content: center;
 }
 
-picture img {
-     /*  width: ancho / height: alto*/ 
-}
+
 #fondo {
-  
-  background-color: rgb(53, 106, 185);
+
+    background-color: rgba(7, 44, 100, 0.959);
 }
+
 /* lista y enlace */
 #opciones {
     text-align: center;
-    list-style: none; /* elimina los puntitos (viñeta) */
+    list-style: none;
+    /* elimina los puntitos (viñeta) */
 }
 
-#opciones  li {
+#opciones li {
     text-decoration: none;
     color: #fff;
-    list-style: none; 
+    list-style: none;
     padding: 5px;
     text-align: center;
     display: inline-block;
-  }
+}
 
 .boton {
-    text-decoration: none; /* Eliminamos el subrayado del enlace */
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
     color: #fff;
-    border: 2px solid rgb(217, 168, 54);
-    padding: 5px; /* margen interior */
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    /* margen interior */
     border-radius: 5px;
     display: inline-block;
 }
-.boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
-    background-color: burlywood;
+
+.boton:hover {
+    /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(135, 205, 245);
     color: #000;
 }
+
 .padre {
     display: flex;
     justify-content: left;
@@ -68,4 +83,3 @@ picture img {
     margin-bottom: 20px;
 
 }
-
