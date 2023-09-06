@@ -7,10 +7,14 @@ body {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 900; /* peso del contorno de la letra */
+    font-weight: 900; 
+    color:#000;
 }
 p {
     text-align: center;
+    color: #fdf9f9;
+    font-weight: 500; 
+    font-size: larger;
 }
 
 /* imagen */ 
@@ -23,8 +27,8 @@ picture img {
      /*  width: ancho / height: alto*/ 
 }
 #fondo {
-  color: aqua;
-  background-color: aquamarine;
+  
+  background-color: rgb(53, 106, 185);
 }
 /* lista y enlace */
 #opciones {
@@ -52,5 +56,16 @@ picture img {
 .boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
     background-color: burlywood;
     color: #000;
+}
+.padre {
+    display: flex;
+    justify-content: left;
+
+}
+
+.hijo {
+    padding: 20px;
+    margin-bottom: 20px;
+
 }
 
